@@ -12,7 +12,7 @@
 
 **פלטפורמת יעד:** מחשב אישי (PC), עם שליטה באמצעות מקלדת ועכבר. המשחק מיועד לפיתוח ב־Unity.
 
-**שפה חזותית:** אזור הסיור בבסיס יוצג כעולם דו־ממדי בסגנון Pixel Art, במבט מלמעלה או בזווית אלכסונית קלה. לעומתו, מסכי המיני־גיימס יהיו איורים דו־ממדיים נקיים, צבעוניים ומוגזמים בהשראת *Dumb Ways to Die* ו־*Rhythm Heaven*. המעבר בין הסגנונות יבדיל בין חיי הבסיס לבין רגעי האתגר.
+**שפה חזותית:** אזור הסיור בבסיס יוצג כעולם דו־ממדי בסגנון Pixel Art, במבט מלמעלה או בזווית אלכסונית קלה. לעומתו, מסכי המיני־גיימס יהיו איורים דו־ממדיים נקיים. המעבר בין הסגנונות יבדיל בין חיי הבסיס לבין רגעי האתגר.
 
 **מקום לתמונה — מסך קונספט ראשי:** מפה מפוקסלת של בסיס צבאי עם חייל, מבנים, מפקד, סימוני משימות ושעון יציאה.
 
@@ -179,7 +179,7 @@
 
 **מקום לצילום מסך — Dumb Ways to Die:**
 
-![צילום מסך מתוך Dumb Ways to Die](images/reference-dumb-ways-to-die.png)
+<img width="261" height="428" alt="image" src="https://github.com/user-attachments/assets/38a79a23-96e3-4e58-9aef-1f4fe9094274" />
 
 ### 2. WarioWare: Get It Together!
 
@@ -193,7 +193,7 @@
 
 **מקום לצילום מסך — WarioWare:**
 
-![צילום מסך מתוך WarioWare](images/reference-warioware.png)
+<img width="717" height="400" alt="image" src="https://github.com/user-attachments/assets/2b8e24d8-bf32-4650-a794-79267c82d6e7" />
 
 ### 3. Rhythm Heaven Groove
 
@@ -207,7 +207,7 @@
 
 **מקום לצילום מסך — Rhythm Heaven Groove:**
 
-![צילום מסך מתוך Rhythm Heaven Groove](images/reference-rhythm-heaven.png)
+<img width="712" height="347" alt="image" src="https://github.com/user-attachments/assets/5a7e37cb-4fa6-4dec-a4ce-ecaebd5113a3" />
 
 ### הרכיבים שמדגישים את מקוריות המשחק
 
