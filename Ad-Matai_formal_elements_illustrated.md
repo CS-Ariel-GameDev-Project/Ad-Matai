@@ -165,7 +165,7 @@
 
 ## סקירת משחקים קיימים
 
-**ביטויי חיפוש ששימשו לסקירה:** `Dumb Ways to Die minigames`, `WarioWare Get It Together microgames`, `Rhythm Heaven Groove rhythm games`, `funny short minigame collection`.
+**ביטויי חיפוש ששימשו לסקירה:** `Dumb Ways to Die minigames`, `WarioWare Get It Together microgames`, `multiple minigames based games`, `funny short minigame collection`.
 
 ### 1. Dumb Ways to Die
 
