@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: e9735f0309ff95046a3102003d4bc791
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5516628455073015119
+    second: SoldierSprites-Transparent_0
+  - first:
+      213: -686919965897069961
+    second: SoldierSprites-Transparent_1
+  - first:
+      213: -349577459799042601
+    second: SoldierSprites-Transparent_2
+  - first:
+      213: -7332156161258131292
+    second: SoldierSprites-Transparent_3
+  - first:
+      213: 3964236895198371732
+    second: SoldierSprites-Transparent_4
+  - first:
+      213: -2951782636125300046
+    second: SoldierSprites-Transparent_5
+  - first:
+      213: 6822750993299145591
+    second: SoldierSprites-Transparent_6
+  - first:
+      213: 1273994664529590626
+    second: SoldierSprites-Transparent_7
+  - first:
+      213: -2407840660113730638
+    second: SoldierSprites-Transparent_8
+  - first:
+      213: -7911321925050181382
+    second: SoldierSprites-Transparent_9
+  - first:
+      213: 6105885982706799257
+    second: SoldierSprites-Transparent_10
+  - first:
+      213: 9153959439210716867
+    second: SoldierSprites-Transparent_11
+  - first:
+      213: 6518990566833827335
+    second: SoldierSprites-Transparent_12
+  - first:
+      213: -7253864132873037850
+    second: SoldierSprites-Transparent_13
+  - first:
+      213: 2213833575329493677
+    second: SoldierSprites-Transparent_14
+  - first:
+      213: -6323083549333698692
+    second: SoldierSprites-Transparent_15
+  - first:
+      213: -5753554934514990997
+    second: SoldierSprites-Transparent_16
+  - first:
+      213: -8123787576556730863
+    second: SoldierSprites-Transparent_17
+  - first:
+      213: 2182494767566516241
+    second: SoldierSprites-Transparent_18
+  - first:
+      213: -3133225692561445470
+    second: SoldierSprites-Transparent_19
+  - first:
+      213: -4984165934094331136
+    second: SoldierSprites-Transparent_20
+  - first:
+      213: -8501575814487303989
+    second: SoldierSprites-Transparent_21
+  - first:
+      213: 6702926140162922893
+    second: SoldierSprites-Transparent_22
+  - first:
+      213: -1387221233344484656
+    second: SoldierSprites-Transparent_23
+  - first:
+      213: 4291099212066686721
+    second: SoldierSprites-Transparent_24
+  - first:
+      213: -6991633521725686863
+    second: SoldierSprites-Transparent_25
+  - first:
+      213: -5382513350800936274
+    second: SoldierSprites-Transparent_26
+  - first:
+      213: -5522225979581974480
+    second: SoldierSprites-Transparent_27
+  - first:
+      213: 3043695641786085636
+    second: SoldierSprites-Transparent_28
+  - first:
+      213: -9130322541865247883
+    second: SoldierSprites-Transparent_29
+  - first:
+      213: 1668469886885914479
+    second: SoldierSprites-Transparent_30
+  - first:
+      213: -7811577018249528843
+    second: SoldierSprites-Transparent_31
+  - first:
+      213: 3468195670500932875
+    second: SoldierSprites-Transparent_32
+  - first:
+      213: 5972165016291598053
+    second: SoldierSprites-Transparent_33
+  - first:
+      213: 1414614852987977461
+    second: SoldierSprites-Transparent_34
+  - first:
+      213: -8212852444303386561
+    second: SoldierSprites-Transparent_35
+  - first:
+      213: 653207051507308477
+    second: SoldierSprites-Transparent_36
+  - first:
+      213: -2322506060086784057
+    second: SoldierSprites-Transparent_37
+  - first:
+      213: -4698536421303245968
+    second: SoldierSprites-Transparent_38
+  - first:
+      213: -5144746945573464658
+    second: SoldierSprites-Transparent_39
+  - first:
+      213: -295571376499192715
+    second: SoldierSprites-Transparent_40
+  - first:
+      213: 8469738677394591975
+    second: SoldierSprites-Transparent_41
+  - first:
+      213: -386908956767164503
+    second: SoldierSprites-Transparent_42
+  - first:
+      213: -7079756851444534993
+    second: SoldierSprites-Transparent_43
+  - first:
+      213: -4107448630255107282
+    second: SoldierSprites-Transparent_44
+  - first:
+      213: -1816627526176481275
+    second: SoldierSprites-Transparent_45
+  - first:
+      213: 7546819416884544094
+    second: SoldierSprites-Transparent_46
+  - first:
+      213: 7769508420675451594
+    second: SoldierSprites-Transparent_47
+  - first:
+      213: 6035166962289741085
+    second: SoldierSprites-Transparent_48
+  - first:
+      213: -1219238256967558352
+    second: SoldierSprites-Transparent_49
+  - first:
+      213: 6841222344613891353
+    second: SoldierSprites-Transparent_50
+  - first:
+      213: -2710929441058590853
+    second: SoldierSprites-Transparent_51
+  - first:
+      213: 3954884321502424693
+    second: SoldierSprites-Transparent_52
+  - first:
+      213: -9213247823333569355
+    second: SoldierSprites-Transparent_53
+  - first:
+      213: 4465761632302335531
+    second: SoldierSprites-Transparent_54
+  - first:
+      213: -4213086655924133374
+    second: SoldierSprites-Transparent_55
+  - first:
+      213: -7605074582664883602
+    second: SoldierSprites-Transparent_56
+  - first:
+      213: -3058410848302799522
+    second: SoldierSprites-Transparent_57
+  - first:
+      213: 1618934865963073599
+    second: SoldierSprites-Transparent_58
+  - first:
+      213: 5714268072542298562
+    second: SoldierSprites-Transparent_59
+  - first:
+      213: -6525497473823302862
+    second: SoldierSprites-Transparent_60
+  - first:
+      213: -7631840183880273748
+    second: SoldierSprites-Transparent_61
+  - first:
+      213: 2656947441876210276
+    second: SoldierSprites-Transparent_62
+  - first:
+      213: -1831461178313764298
+    second: SoldierSprites-Transparent_63
+  - first:
+      213: 4984087860583882402
+    second: SoldierSprites-Transparent_64
+  - first:
+      213: 5976334256415802246
+    second: SoldierSprites-Transparent_65
+  - first:
+      213: -2293153186845307106
+    second: SoldierSprites-Transparent_66
+  - first:
+      213: -6642815900827256865
+    second: SoldierSprites-Transparent_67
+  - first:
+      213: 2357862024282559067
+    second: SoldierSprites-Transparent_68
+  - first:
+      213: -1448670887761124977
+    second: SoldierSprites-Transparent_69
+  - first:
+      213: -1651840160822379691
+    second: SoldierSprites-Transparent_70
+  - first:
+      213: 7511528707365682609
+    second: SoldierSprites-Transparent_71
+  - first:
+      213: 6225152708976090769
+    second: SoldierSprites-Transparent_72
+  - first:
+      213: -7578094617334575429
+    second: SoldierSprites-Transparent_73
+  - first:
+      213: -3225553847446104023
+    second: SoldierSprites-Transparent_74
+  - first:
+      213: -7197894702654385714
+    second: SoldierSprites-Transparent_75
+  - first:
+      213: 51149938097012413
+    second: SoldierSprites-Transparent_76
+  - first:
+      213: 2362831709690052564
+    second: SoldierSprites-Transparent_77
+  - first:
+      213: 6741862684356595104
+    second: SoldierSprites-Transparent_78
+  - first:
+      213: -3778470426167423444
+    second: SoldierSprites-Transparent_79
+  - first:
+      213: 6965240661240097426
+    second: SoldierSprites-Transparent_80
+  - first:
+      213: -7819407328274601794
+    second: SoldierSprites-Transparent_81
+  - first:
+      213: -9023369927895716032
+    second: SoldierSprites-Transparent_82
+  - first:
+      213: -4050970147642761847
+    second: SoldierSprites-Transparent_83
+  - first:
+      213: 1672466324318434078
+    second: SoldierSprites-Transparent_84
+  - first:
+      213: -4884829888791977305
+    second: SoldierSprites-Transparent_85
+  - first:
+      213: 7204758911280457225
+    second: SoldierSprites-Transparent_86
+  - first:
+      213: 6636079738020710535
+    second: SoldierSprites-Transparent_87
+  - first:
+      213: -5195316512228297307
+    second: SoldierSprites-Transparent_88
+  - first:
+      213: -6931639156844179633
+    second: SoldierSprites-Transparent_89
+  - first:
+      213: -7093336127197742780
+    second: SoldierSprites-Transparent_90
+  - first:
+      213: 7712369973490446008
+    second: SoldierSprites-Transparent_91
+  - first:
+      213: -8009188707765739466
+    second: SoldierSprites-Transparent_92
+  - first:
+      213: -3791540360202632106
+    second: SoldierSprites-Transparent_93
+  - first:
+      213: 1107877301284710612
+    second: SoldierSprites-Transparent_94
+  - first:
+      213: 7531119183614032654
+    second: SoldierSprites-Transparent_95
+  - first:
+      213: 8012317285429140282
+    second: SoldierSprites-Transparent_96
+  - first:
+      213: 6560725731467742009
+    second: SoldierSprites-Transparent_97
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SoldierSprites-Transparent_0
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 686
+        width: 300
+        height: 320
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45607ef9500f8c40800000000000000
+      internalID: 5516628455073015119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierSprites-Transparent_1
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 686
+        width: 300
+        height: 320
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ae4933ee19776f0800000000000000
+      internalID: -686919965897069961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierSprites-Transparent_2
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 686
+        width: 300
+        height: 320
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5d137072d062bf0800000000000000
+      internalID: -349577459799042601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierSprites-Transparent_3
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 686
+        width: 300
+        height: 320
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0748a91d2fe3a90800000000000000
+      internalID: -7332156161258131292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierSprites-Transparent_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 366
+        width: 300
+        height: 320
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fdbc7e37cc30730800000000000000
+      internalID: 3964236895198371732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierSprites-Transparent_5
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 366
+        width: 300
+        height: 320
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bad597e4592907d0800000000000000
+      internalID: -2951782636125300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierSprites-Transparent_6
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 366
+        width: 300
+        height: 320
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7730a8241e74fae50800000000000000
+      internalID: 6822750993299145591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierSprites-Transparent_7
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 366
+        width: 300
+        height: 320
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2697701c5632ea110800000000000000
+      internalID: 1273994664529590626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierSprites-Transparent_8
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 46
+        width: 300
+        height: 320
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3dd2a4da1a59ed0800000000000000
+      internalID: -2407840660113730638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierSprites-Transparent_9
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 46
+        width: 300
+        height: 320
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8df9900a6553290800000000000000
+      internalID: -7911321925050181382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierSprites-Transparent_10
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 46
+        width: 300
+        height: 320
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992964e63f67cb450800000000000000
+      internalID: 6105885982706799257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierSprites-Transparent_11
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 46
+        width: 300
+        height: 320
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce1d763c95690f70800000000000000
+      internalID: 9153959439210716867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 88740634edfd4734ab053547f235320c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":300.0,"y":320.0},"gridSpriteOffset":{"x":110.0,"y":80.0},"gridSpritePadding":{"x":10.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SoldierSprites-Transparent_0: 5516628455073015119
+      SoldierSprites-Transparent_1: -686919965897069961
+      SoldierSprites-Transparent_10: 6105885982706799257
+      SoldierSprites-Transparent_11: 9153959439210716867
+      SoldierSprites-Transparent_2: -349577459799042601
+      SoldierSprites-Transparent_3: -7332156161258131292
+      SoldierSprites-Transparent_4: 3964236895198371732
+      SoldierSprites-Transparent_5: -2951782636125300046
+      SoldierSprites-Transparent_6: 6822750993299145591
+      SoldierSprites-Transparent_7: 1273994664529590626
+      SoldierSprites-Transparent_8: -2407840660113730638
+      SoldierSprites-Transparent_9: -7911321925050181382
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
