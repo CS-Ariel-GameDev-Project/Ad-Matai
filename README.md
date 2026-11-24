@@ -7,7 +7,7 @@
 - **למשחק בדפדפן ולהורדות:** [Ad-Matai ב־itch.io](https://elonitai.itch.io/ad-matai)
 - **קוד המקור:** [GitHub — Ad-Matai](https://github.com/CS-Ariel-GameDev-Project/Ad-Matai)
 - **מסמך תכנון השלבים:** [Level Design](Ad_Matai_Level_Design.md)
-- **סיפור טויין:**  https://cs-ariel-gamedev-project.github.io/Ad-Matai/     
+- **סיפור טויין:**  [https://cs-ariel-gamedev-project.github.io/Ad-Matai/ad-matai-story.html](https://cs-ariel-gamedev-project.github.io/Ad-Matai/ad-matai-story.html)     
 ## 🎯 איך משחקים במטווח
 
 ![סיבוב פעיל במטווח עם מטרות אדומות, מגן ירוק, טיימר וניקוד](images/shooting-range-screenshot.png)
