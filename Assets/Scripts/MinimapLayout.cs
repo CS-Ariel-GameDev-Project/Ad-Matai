@@ -15,6 +15,7 @@ public class MinimapLayout : MonoBehaviour
         minimapCamera = GetComponent<Camera>();
     }
 
+    // Keep the minimap in the top-right corner as the screen dimensions change.
     void Update()
     {
         float screenWidth = Screen.width;

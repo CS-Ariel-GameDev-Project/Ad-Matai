@@ -17,6 +17,7 @@ public class CameraOrientationSize : MonoBehaviour
         cam = GetComponent<Camera>();
     }
 
+    // Recalculate the view when the game window or device orientation changes.
     void Update()
     {
         // Screen dimensions are measured in pixels.

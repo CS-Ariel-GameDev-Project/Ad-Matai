@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+// Plays the muzzle flash for mouse clicks and touchscreen presses.
 [RequireComponent(typeof(SpriteRenderer))]
 public class ShooterController : MonoBehaviour
 {
@@ -36,6 +37,7 @@ public class ShooterController : MonoBehaviour
         }
     }
 
+    // Restart the flash on rapid presses so an earlier routine cannot cut it short.
     public void TriggerMuzzleFlash()
     {
         if (firingSprite == null || spriteRenderer == null) return;
@@ -48,6 +50,7 @@ public class ShooterController : MonoBehaviour
         flashCoroutine = StartCoroutine(MuzzleFlashRoutine());
     }
 
+    // Briefly swap to the firing pose before returning to the idle pose.
     private IEnumerator MuzzleFlashRoutine()
     {
         spriteRenderer.sprite = firingSprite;

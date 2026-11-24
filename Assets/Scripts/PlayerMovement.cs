@@ -66,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
         moveAction.Dispose();
     }
 
-    // Unity calls Update once per frame.
+    // Use the same direction for movement and animation each frame.
     void Update()
     {
         // Read the combined input from the Move action.

@@ -2,10 +2,13 @@ using System;
 using UnityEngine;
 using TMPro;
 
+// Counts down the round, applies time penalties, and reports the final result.
 public class ShootingRangeTimer : MonoBehaviour
 {
+    // Notify gameplay listeners to clean up before the result is displayed.
     public static event Action OnTimerExpired;
-
+    // Send the final score and required score to the result panel.
+    public event Action<int, int> RoundFinished;
     // Constants declared at class level
     private const float DEFAULT_TIME_REMAINING = 60f;
     private const float DEFAULT_PENALTY_DEDUCTION = 5f;
@@ -38,6 +41,7 @@ public class ShootingRangeTimer : MonoBehaviour
         TargetEvents.OnPenaltyTargetHit -= DeductTime;
     }
 
+    // The start panel controls when this component is first enabled.
     private void Start()
     {
         StartTimer();
@@ -71,6 +75,7 @@ public class ShootingRangeTimer : MonoBehaviour
         timerIsRunning = false;
     }
 
+    // A penalty can end the round immediately if it uses up the remaining time.
     public void DeductTime()
     {
         timeRemaining = Mathf.Max(ZERO_TIME, timeRemaining - penaltyTimeDeduction);
@@ -88,6 +93,7 @@ public class ShootingRangeTimer : MonoBehaviour
         return timeRemaining;
     }
 
+    // Capture the score and goal before notifying cleanup and result listeners.
     private void TriggerTimerExpired()
     {
         Debug.Log("Time's Up!");
@@ -108,8 +114,10 @@ public class ShootingRangeTimer : MonoBehaviour
         }
 
         OnTimerExpired?.Invoke();
+        RoundFinished?.Invoke(finalScore, requiredScore);
     }
 
+    // Format the remaining time as minutes and whole seconds.
     private void UpdateDisplay(float timeToDisplay)
     {
         float minutes = Mathf.FloorToInt(timeToDisplay / SECONDS_PER_MINUTE);

@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+// Handles one red or green target and its hit feedback.
 [RequireComponent(typeof(SpriteRenderer), typeof(Collider2D))]
 public class Target : MonoBehaviour, IPointerDownHandler
 {
@@ -29,11 +30,13 @@ public class Target : MonoBehaviour, IPointerDownHandler
         targetCollider = GetComponent<Collider2D>();
     }
 
+    // Mouse clicks and touchscreen presses use the same hit path.
     public void OnPointerDown(PointerEventData eventData)
     {
         ProcessHit();
     }
 
+    // Consume the hit once and disable the collider while feedback is visible.
     private void ProcessHit()
     {
         if (isHit) return;
@@ -63,6 +66,7 @@ public class Target : MonoBehaviour, IPointerDownHandler
         }
     }
 
+    // Leave the broken sprite visible briefly before removing the target.
     private IEnumerator ShatterRoutine()
     {
         spriteRenderer.sprite = brokenSprite;
