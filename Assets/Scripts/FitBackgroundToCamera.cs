@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Keep the backdrop fitted to the camera in both the editor and Play Mode.
 [ExecuteAlways]
 [RequireComponent(typeof(SpriteRenderer))]
 public class FitBackgroundToCamera : MonoBehaviour
@@ -18,6 +19,7 @@ public class FitBackgroundToCamera : MonoBehaviour
         FitBackground();
     }
 
+    // Fit after camera movement and zoom changes for the current frame.
     private void LateUpdate()
     {
         FitBackground();
@@ -43,7 +45,7 @@ public class FitBackgroundToCamera : MonoBehaviour
         // Original sprite dimensions in world units
         Vector2 spriteSize = spriteRenderer.sprite.bounds.size;
 
-        // Scale uniformly to cover the entire screen
+        // The larger scale covers both axes while preserving the sprite aspect ratio.
         float scale = Mathf.Max(
             cameraWidth / spriteSize.x,
             cameraHeight / spriteSize.y

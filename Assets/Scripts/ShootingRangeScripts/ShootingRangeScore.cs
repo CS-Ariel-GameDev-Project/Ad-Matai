@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 
+// Tracks points from target hits and displays the current score.
 [RequireComponent(typeof(TextMeshProUGUI))]
 public class ShootingRangeScore : MonoBehaviour
 {
@@ -22,6 +23,7 @@ public class ShootingRangeScore : MonoBehaviour
         scoreText = GetComponent<TextMeshProUGUI>();
     }
 
+    // Listen only while the score component is active.
     private void OnEnable()
     {
         TargetEvents.OnScoreTargetHit += AddScore;
@@ -34,6 +36,7 @@ public class ShootingRangeScore : MonoBehaviour
         TargetEvents.OnPenaltyTargetHit -= DeductScore;
     }
 
+    // Show the initial score before the first target is hit.
     private void Start()
     {
         UpdateDisplay();
@@ -45,6 +48,7 @@ public class ShootingRangeScore : MonoBehaviour
         UpdateDisplay();
     }
 
+    // Apply the configured penalty without letting the score drop below zero.
     private void DeductScore()
     {
         currentScore = Mathf.Max(MINIMUM_SCORE, currentScore - pointsDeductedPerGreenTarget);
@@ -59,6 +63,7 @@ public class ShootingRangeScore : MonoBehaviour
         }
     }
 
+    // The timer reads this value when it captures the final result.
     public int GetCurrentScore()
     {
         return currentScore;

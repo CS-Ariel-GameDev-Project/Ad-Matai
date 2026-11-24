@@ -18,6 +18,7 @@ public class CameraFollow : MonoBehaviour
         cam = GetComponent<Camera>();
     }
 
+    // Follow after the player has moved and the camera size has been updated.
     void LateUpdate()
     {
         if (target == null)

@@ -1,7 +1,9 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Creates target waves and clears the range when the round ends.
 public class WaveSpawner : MonoBehaviour
 {
     // Constants to eliminate magic numbers
@@ -28,6 +30,9 @@ public class WaveSpawner : MonoBehaviour
     [SerializeField] private GameObject redTargetPrefab;
     [SerializeField] private GameObject greenTargetPrefab;
 
+    [Header("LiveOps Remote Config")]
+    [SerializeField] private RangeRemoteConfig remoteConfig;
+
     [Header("Procedural Wave Settings")]
     [SerializeField] private int totalWaves = DEFAULT_TOTAL_WAVES;
     [SerializeField] private int minTargetsPerWave = DEFAULT_MIN_TARGETS_PER_WAVE;
@@ -50,6 +55,7 @@ public class WaveSpawner : MonoBehaviour
     private bool isSpawning = true;
     private List<GameObject> activeRedTargets = new List<GameObject>();
 
+    // Subscribe when the start panel enables spawning.
     private void OnEnable()
     {
         ShootingRangeTimer.OnTimerExpired += StopSpawning;
@@ -60,17 +66,62 @@ public class WaveSpawner : MonoBehaviour
         ShootingRangeTimer.OnTimerExpired -= StopSpawning;
     }
 
-    private void Start()
+    // Wait for LiveOps configuration before spawning the first wave.
+    private IEnumerator Start()
     {
-        StartCoroutine(SpawnWavesRoutine());
+        if (remoteConfig != null && remoteConfig.isActiveAndEnabled)
+        {
+            yield return new WaitUntil(() => remoteConfig.IsReady);
+
+            // Apply LiveOps settings before the shooting range starts.
+            ApplyRemoteConfig();
+        }
+
+        if (isSpawning)
+        {
+            StartCoroutine(SpawnWavesRoutine());
+        }
     }
 
+    // Apply LiveOps parameters fetched from Unity Remote Config.
+    // Only wave size and green target probability are overridden.
+    private void ApplyRemoteConfig()
+    {
+        if (remoteConfig == null)
+        {
+            return;
+        }
+
+        minTargetsPerWave = remoteConfig.MinWaveSize;
+        maxTargetsPerWave = remoteConfig.MaxWaveSize;
+        greenPenaltyChance = remoteConfig.GreenTargetChance;
+
+        Debug.Log(
+            $"LiveOps applied to WaveSpawner: " +
+            $"Min={minTargetsPerWave}, " +
+            $"Max={maxTargetsPerWave}, " +
+            $"Green={greenPenaltyChance}"
+        );
+    }
+
+    // Stop future waves and remove targets from the current wave.
     public void StopSpawning()
     {
         isSpawning = false;
         StopAllCoroutines();
+
+        // Disable hits immediately and remove every remaining target.
+        Target[] remainingTargets =
+            FindObjectsByType<Target>(FindObjectsSortMode.None);
+
+        foreach (Target target in remainingTargets)
+        {
+            target.GetComponent<Collider2D>().enabled = false;
+            Destroy(target.gameObject);
+        }
     }
 
+    // Create one wave at a time and advance when its red targets are gone.
     private IEnumerator SpawnWavesRoutine()
     {
         for (int wave = 0; wave < totalWaves && isSpawning; wave++)
@@ -94,12 +145,14 @@ public class WaveSpawner : MonoBehaviour
         }
     }
 
+    // Destroyed Unity objects compare equal to null after removal.
     private bool AllRedTargetsCleared()
     {
         activeRedTargets.RemoveAll(t => t == null);
         return activeRedTargets.Count == 0;
     }
 
+    // Clear leftover penalty targets before starting the next wave.
     private void ClearRemainingGreenTargets()
     {
         Target[] allTargets = FindObjectsByType<Target>(FindObjectsSortMode.None);
@@ -112,6 +165,7 @@ public class WaveSpawner : MonoBehaviour
         }
     }
 
+    // Choose a target type and track red targets for the wave completion check.
     private void SpawnTarget()
     {
         bool isGreen = Random.value < greenPenaltyChance;
@@ -127,6 +181,7 @@ public class WaveSpawner : MonoBehaviour
         }
     }
 
+    // Try positions inside the configured spawn area until one has clearance.
     private Vector3 GetValidSpawnPosition()
     {
         Vector3 position = Vector3.zero;
@@ -149,6 +204,7 @@ public class WaveSpawner : MonoBehaviour
             }
         }
 
+        // Use a random fallback if none of the attempts has enough clearance.
         if (!validPositionFound)
         {
             float randomX = Random.Range(spawnCenter.x - halfWidth, spawnCenter.x + halfWidth);
@@ -159,6 +215,7 @@ public class WaveSpawner : MonoBehaviour
         return position;
     }
 
+    // Show the spawn area in the Scene view while tuning the bounds.
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
